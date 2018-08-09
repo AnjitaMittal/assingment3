@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/plusminus"
+        android:layout_alignTop="@+id/two"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="3"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/eight"
+        android:layout_alignTop="@+id/one"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="2"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/minus"
+        android:layout_alignTop="@+id/nine"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="*"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/four"
+        android:layout_marginBottom="10dp"
+        android:text="%"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/two"
+         android:layout_marginBottom="10dp"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/three"
+        android:text="."
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/multiply"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="="
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/multiply"
+        android:layout_alignTop="@+id/three"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="+"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/seven"
+        android:layout_alignStart="@+id/three"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="9"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/divide"
+        android:layout_alignTop="@+id/five"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="-"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/three"
+        android:layout_alignTop="@+id/minus"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="6"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/seven"
+        android:layout_marginBottom="158dp"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="4"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/one"
+        android:layout_marginBottom="78dp"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="7"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/five"
+        android:layout_alignTop="@+id/seven"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="8"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/back"
+        android:layout_alignTop="@+id/four"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="5"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/ac"
+        android:layout_marginBottom="240dp"
+        android:margin="10ap"
+        android:padding="10sp"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:gravity="right"
+        android:hint="statement"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="178dp"
+        android:padding="10sp"
+        android:text="AC"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ac"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="115dp"
+        android:textColor="@android:color/white"
+        android:text="<-"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/plusminus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ac"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="115dp"
+        android:text="+/-"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/back"
+        android:layout_marginEnd="25dp"
+        android:text="/"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+
+</RelativeLayout>
